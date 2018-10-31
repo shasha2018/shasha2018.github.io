@@ -1,9 +1,15 @@
 html {
-    min-height: 100%;
-    background-color: #1a3d3a;
+  min-height: 100%;
+  background-image: url("../assets/background.png");
+  background-color: #e15e5e;
 }
-
 body {
-    color: aliceblue;
-    font-family: "Arial Black";
+  color: white;
+  font-family: "Arial Black";
+  max-width: 600px;
+  margin: auto;
+}
+body h1,
+body p {
+  text-align: center;
 }
