@@ -3,13 +3,27 @@ html {
   background-image: url("../assets/background.png");
   background-color: #e15e5e;
 }
-body {
+body header {
+  max-width: 300px;
+  margin: auto;
+}
+body header .logo {
+  max-width: 300px;
+}
+body .main-body {
   color: white;
   font-family: "Comic Sans MS";
   max-width: 600px;
   margin: auto;
 }
-body h1,
-body p {
+body .main-body h1,
+body .main-body p {
   text-align: center;
+}
+body .main-body .lineup .details {
+  display: flex;
+}
+body .main-body .lineup .details .act-logo {
+  max-width: 100px;
+  max-height: 100px;
 }

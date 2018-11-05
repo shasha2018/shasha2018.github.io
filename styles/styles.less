@@ -10,12 +10,32 @@ html {
 }
 
 body {
-  color: white;
-  font-family: "Comic Sans MS";
-  max-width: 600px;
-  margin: auto;
+  header{
+    max-width: 300px;
+    margin: auto;
+    .logo {
+      max-width: 300px;
+    }
+  }
 
-  h1, p {
-    text-align: center;
+  .main-body {
+    color: white;
+    font-family: "Comic Sans MS";
+    max-width: 600px;
+    margin: auto;
+
+    h1, p {
+      text-align: center;
+    }
+
+    .lineup {
+      .details {
+        display: flex;
+        .act-logo {
+          max-width: 100px;
+          max-height: 100px;
+        }
+      }
+    }
   }
 }
